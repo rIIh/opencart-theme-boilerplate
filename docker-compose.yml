@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  lamp:
+    image: mattrayner/lamp:latest-1804
+    volumes:
+      - './store:/app'
+    ports:
+      - '80:80'

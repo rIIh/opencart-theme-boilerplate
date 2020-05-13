@@ -1,0 +1,9 @@
+node_modules
+opencart/*
+!opencart/IMPORTANT.md
+.idea
+*.zip
+store
+.sass-cache
+build
+live
